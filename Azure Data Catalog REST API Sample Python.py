@@ -19,7 +19,6 @@ token = context.acquire_token_with_client_credentials(
     resourceUri,
     clientIDFromAzureAppRegistration,
     spsecret)
-#token = context.acquire_token_with_username_password(username="aaa",password="bbb", client_id="dd9e3b2b-ffa1-48b2-b110-c38fd514234e", resource= resourceUri)
 accessToken = token['accessToken']
 
 def registerDataAsset(jsonasset):
