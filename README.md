@@ -15,5 +15,5 @@ Back to the setting, go to Keys, under password give a description, expiring and
 
 ## 3) Give permission to the AAD Application to manage your Azure Data Catalog
 Go to your Microsoft Azure Data Catalog, press Settings in the top right corner. In the Catalog User section Add a new user in the format *ApplicationID@TenantID*, where the ApplicationID is the value you grab in step 2 and TenantID is the value you grab in step 1. Press Save. Eventually add the same user into the Glossary Administrators and Catalog Administrators groups based on the scenario and Data Catalog version you are working with.
-![step3](img/adc-perm.jpg)
+![step3](img/adc-perm.JPG)
 
