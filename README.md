@@ -2,6 +2,7 @@
 Sample on how to use Azure Data Catalog from Python. A part for performing registration, searching and delete of resources it shows how to authenticate using AAD Web app/API without asking user to provide credentials.
 
 To use the sample you have to:
+
 0) Install ADAL
 1) Get your AAD Tenant ID
 2) Configure an AAD Application Web app/API and get App ID and Secret
